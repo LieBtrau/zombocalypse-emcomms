@@ -1,0 +1,11 @@
+-rw-rw-r-- 1 christoph christoph   49637 Jan  1 13:54 2400ohm_noCable.s2p               attenuator : 2 port measurement, 2400ohm directly connected between port 1 and port 2
+-rw-rw-r-- 1 christoph christoph   24656 Jan  1 12:08 2400ohm.s1p                       attenuator : 1 port measurement, 2400ohm connected with SMA-cable between port 1 and port 2
+-rw-rw-r-- 1 christoph christoph   50320 Jan  1 13:48 2400ohm.s2p                       attenuator : 2 port measurement, 2400ohm connected with SMA-cable between port 1 and port 2
+-rw-rw-r-- 1 christoph christoph   25471 Jan  1 12:40 2450ohm_no_sma_cable.s1p          2450ohm connected directly on secondary coil
+-rw-rw-r-- 1 christoph christoph   50575 Jan  1 13:51 4p_28s_2400ohm_noCable.s2p        2400ohm in series with secondary coil.  No use of SMA-cables
+-rw-rw-r-- 1 christoph christoph   49949 Jan  1 13:46 4p_28s_2400ohm.s2p                2400ohm in series with secondary coil. SMA cable from 2400ohm to port2
+-rw-rw-r-- 1 christoph christoph    4947 Dec 31 07:37 4p_28s_Z_closed.s1p               port 1 measurement : secondary coil short-circuited
+-rw-rw-r-- 1 christoph christoph    4949 Dec 31 07:35 4p_28s_Z_open.s1p                 port 1 measurement : secondary coil left open
+-rw-rw-r-- 1 christoph christoph       0 Jan  1 20:49 readme.md                         this file
+-rw-rw-r-- 1 christoph christoph 1044844 Jan  1 14:41 trafo_4p28s.jpg                   picture of the transformer
+
