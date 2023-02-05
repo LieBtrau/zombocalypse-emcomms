@@ -79,7 +79,7 @@ def plot_transformer_loss(nw, nw_cal, graph_title):
     plt.plot(nw.f, loss_db)
     plt.plot(nw.f, mismatch_loss_db)
     plt.plot(nw.f, insertion_loss_db)
-    plt.xlabel('Frequency')
+    plt.xlabel('Frequency [Hz]')
     plt.ylabel('Loss [dB]')
     ax.set_title(graph_title)
     plt.legend(['loss', 'mismatch', 'insertion'], loc ='upper right')
@@ -98,7 +98,7 @@ def plot_efficiency(frequencies, loss_db, graph_title):
     fig, ax = plt.subplots()
     efficiency = [1/math.pow(10,x/10)*100 for x in loss_db]
     plt.plot(frequencies, efficiency)
-    plt.xlabel('Frequency')
+    plt.xlabel('Frequency [Hz]')
     plt.ylabel('Efficiency [%]')
     ax.set_title(graph_title)
     ax.grid()
