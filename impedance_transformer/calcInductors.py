@@ -48,12 +48,12 @@ def calc_max_flux_density(Ae, Pmax, Zin, fmin, Np):
 
 def transformer_bandwidth_calculation(f, SRF, Np, Zs, Z_open, Z_closed):
     '''
-    f [Hz] = measuring frequency (typ. 500kHz)
-    SRF [Hz] = measured self resonant frequency (= frequency where imaginary part of impedance is zero)
-    Np [] = number of primary turns
-    Zs [Ω] = source impedance (typ. 50)
-    Z_open [Ω] = Measured impedance at frequency f of primary coil, with secondary coil open
-    Z_closed [Ω] Measured impedance at frequency f of primary coil, with secondary coil short-circuited
+    @f [Hz] = measuring frequency (typ. 500kHz)
+    @SRF [Hz] = measured self resonant frequency (= frequency where imaginary part of impedance is zero)
+    @Np [] = number of primary turns
+    @Zs [Ω] = source impedance (typ. 50)
+    @Z_open [Ω] = Measured impedance at frequency f of primary coil, with secondary coil open
+    @Z_closed [Ω] Measured impedance at frequency f of primary coil, with secondary coil short-circuited
     '''
     Ll = Z_closed.imag / (2*math.pi*f) # [H] Leakage inductance (with secondary transferred to primary)
     print('Leakage inductance = {:.3}H'.format(Ll))
