@@ -3,7 +3,15 @@
 
 First version of the antenna.  Made on perfboard and using household wire.
 
+## Antenna setup
+An SDRplay RSP1A is connected to 10m coax on the ground, which is connected to the EFHW transformer, about 2m above ground.  The left side of the perfboard is connected with a few meters of isulated wire to a fence.  The right side of the perfboard connects to the antenna wire.  The antenna wire is connected to the secondary of the transformer.  The primary and secondary coils of the transformer have a common ground.
+
+The antenna wire is about 20m long, and it loops through a wire which hangs from a window at about 6m above ground.  Then leading back to a fence where it's fixed with an 8S carabiner.
+
+The antenna setup resembles more or less an inverted V.  The angle between the antenna wire and the ground is about 30 degrees.
+
 ## VSWR measurement
+
 <a href="./doc/vswr_no_primary_cap.png"><img src="./doc/vswr_no_primary_cap.png" width="500"/></a>
 
 VSWR on 10m is not great.  This might be improved by adding a 100pF capacitor in parallel with the primary coil.  To be tested.
