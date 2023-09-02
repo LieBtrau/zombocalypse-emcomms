@@ -19,7 +19,7 @@ VSWR on 10m is not great.  This might be improved by adding a 100pF capacitor in
 Another option is to add inductance on the antenna wire, near the transformer.  This has been tested by [Gary Rondeau](https://squashpractice.com/2021/07/20/engineering-the-efhw-491-transformer-and-antenna/).
 
 
-# Parts list
+## Parts list
 | Item | Description | Qty | Price |
 | ---- | ----------- | --- | ----- |
 | [Hammond 1551HFLBK](https://www.trustedparts.com/en/part/hammond/1551HFLBK) | Enclosures, Boxes, & Cases Miniature/FlangedLid 2.36x1.38x.79" Black| 1 | €2.71 |
@@ -30,6 +30,37 @@ Another option is to add inductance on the antenna wire, near the transformer.  
 | [AliExpress](https://www.aliexpress.com/item/1005001867862900.html) | M-BNC/F-SMA adapter | 1 | €5.64/2pcs |
 | [AliExpress](https://www.aliexpress.com/item/33061511845.html) | Red, 50 Meters, 24AWG, UL1571 PVC insulated wire | ±20m | €18.25/50m |
 
-# Notes
+## Notes
 * Hammond enclosure idea from [MM0OPX EFHW](https://youtu.be/nZ-G4hJCTSM?t=1123)
 * 10m coax cable is integral part of the antenna
+
+## Pitfalls during the building process
+* The common point of primary and secondary windings should be connected to the ground of the coax cable, not the center conductor.
+* Be sure to heat up the enameled wire high enough the burn off the enamel (>400°C).  Otherwise the solder won't stick to the wire.
+* Check for continuity with a multimeter.  The primary winding should have a slightly lower resistance than the secondary winding.
+* Check the SMA-connector where the load resistor is attached to.  The white isolating ring and the center pin might get dislodged.  Push them back in place with a small screwdriver.
+
+# Antenna test
+## Radio
+* [SDRplay RSP1A](https://www.sdrplay.com/rsp1a/) : SDR receiver
+
+## Web tools
+* [PSK-reporter](https://www.pskreporter.info/pskmap.html) : shows active stations on a map for FT-8, FT-4, JT-65, JT-9, WSPR, and more over different bands
+* [DX-view](https://hf.dxview.org/perspective/JO10qv) : world map of propagation over different bands
+
+## Software setup
+* [SDRuno](https://www.sdrplay.com/sdruno/) : for controlling the SDRplay RSP1A.  Not my favorite software, but it works.
+* [VB-CABLE Virtual Audio Device](https://vb-audio.com/Cable/) : for routing audio from SDRuno to WSJT-X.  This is a virtual audio device, which is used as input in WSJT-X.  SDRuno is configured to output audio to this virtual device.
+* [WSJT-X](https://wsjt.sourceforge.io/wsjtx.html) : for decoding FT-8 signals
+* [GridTracker](https://gridtracker.org/) : shows decoded signals on a map
+
+## Results
+[PSK-reporter](https://www.pskreporter.info/pskmap.html) shows that FT-8 is by far the most popular mode on HF.  Moreover, the cycle time is only 15s (compared to 2mins for WSPR).  This means that you can quickly receive a lot of signals, and you can quickly see if your antenna is working.
+
+### 40m-band
+
+### 20m-band
+
+### 15m-band
+
+### 10m-band
