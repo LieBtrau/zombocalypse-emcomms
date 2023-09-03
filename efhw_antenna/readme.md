@@ -1,5 +1,6 @@
 # Antenna for 40m, 20m, 15m, 10m
 <a href="./doc/antenna_packed.jpg"><img src="./doc/antenna_packed.jpg" width="500"/></a>
+<img src="./doc/perfboard_setup.jpg" height="500"/>
 
 First version of the antenna.  Made on perfboard and using household wire.
 
@@ -21,6 +22,7 @@ Another option is to add inductance on the antenna wire, near the transformer.  
 # Building the transformer into a housing
 
 ## VSWR measurement of the transformer in a housing
+
 ### Measurement 1 : Stupid mistake
 <a href="./doc/vswr_in_housing_no_cap.png"><img src="./doc/vswr_in_housing_no_cap.png" width="500"/></a>
 
@@ -34,12 +36,21 @@ Back to the drawing board.
 
 ### Measurement 2
 
+<img src="./doc/housing_on_wire.jpg" width="500"/>
+
 While taking pictures of the transformer setup, I noticed that the I forgot to connect the wire to the transformer.  So the transformer was not connected to the antenna wire.  This explains the bad results of the previous measurement.
 It's a stupid mistake, but it learns you that you must always check your setup before taking measurements.
 
 <a href="./doc/vswr_in_housing_no_cap_antenna_connected.png"><img src="./doc/vswr_in_housing_no_cap_antenna_connected.png" width="500"/></a>
 
 The performance is comparable to the perfboard setup.  So we can continue with the next step.
+
+### Measurement 3 : with 100pF capacitor
+
+Because it wasn't so much work to do this extra measurement.  It didn't seem to make much difference, so the 100pF capacitor is not needed.
+
+<a href="./doc/vswr_in_housing_100pF_antenna_connected.png"><img src="./doc/vswr_in_housing_100pF_antenna_connected.png" width="500"/></a>
+
 
 ## Parts list
 | Item | Description | Qty | Price |
