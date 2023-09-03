@@ -21,7 +21,7 @@ Another option is to add inductance on the antenna wire, near the transformer.  
 # Building the transformer into a housing
 
 ## VSWR measurement of the transformer in a housing
-### Measurement 1
+### Measurement 1 : Stupid mistake
 <a href="./doc/vswr_in_housing_no_cap.png"><img src="./doc/vswr_in_housing_no_cap.png" width="500"/></a>
 
 Why is the performance so bad compared to the perfboard setup?
@@ -32,6 +32,14 @@ The tests with 2450ohm termination already showed a serious degradation from the
 
 Back to the drawing board.
 
+### Measurement 2
+
+While taking pictures of the transformer setup, I noticed that the I forgot to connect the wire to the transformer.  So the transformer was not connected to the antenna wire.  This explains the bad results of the previous measurement.
+It's a stupid mistake, but it learns you that you must always check your setup before taking measurements.
+
+<a href="./doc/vswr_in_housing_no_cap_antenna_connected.png"><img src="./doc/vswr_in_housing_no_cap_antenna_connected.png" width="500"/></a>
+
+The performance is comparable to the perfboard setup.  So we can continue with the next step.
 
 ## Parts list
 | Item | Description | Qty | Price |
