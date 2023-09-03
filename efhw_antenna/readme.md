@@ -10,13 +10,27 @@ The antenna wire is about 20m long, and it loops through a wire which hangs from
 
 The antenna setup resembles more or less an inverted V.  The angle between the antenna wire and the ground is about 30 degrees.
 
-## VSWR measurement
+## VSWR measurement of the perfboard setup
 
 <a href="./doc/vswr_no_primary_cap.png"><img src="./doc/vswr_no_primary_cap.png" width="500"/></a>
 
 VSWR on 10m is not great.  This might be improved by adding a 100pF capacitor in parallel with the primary coil.  To be tested.
 
 Another option is to add inductance on the antenna wire, near the transformer.  This has been tested by [Gary Rondeau](https://squashpractice.com/2021/07/20/engineering-the-efhw-491-transformer-and-antenna/).
+
+# Building the transformer into a housing
+
+## VSWR measurement of the transformer in a housing
+### Measurement 1
+<a href="./doc/vswr_in_housing_no_cap.png"><img src="./doc/vswr_in_housing_no_cap.png" width="500"/></a>
+
+Why is the performance so bad compared to the perfboard setup?
+
+We're using the same antenna, the same core with unchanged secondary winding.  Primary winding has been rewound.  The common terminal of both windings is now connected to the BNC-ground, while in the perfboard setup, there was a wire (red insulation) connecting the common terminal to the ground of the SMA-connector.
+
+The tests with 2450ohm termination already showed a serious degradation from the perfboard setup.  So we should get this setup (with 2450ohm termination) working first before we can expect good results with the antenna.
+
+Back to the drawing board.
 
 
 ## Parts list
@@ -29,10 +43,12 @@ Another option is to add inductance on the antenna wire, near the transformer.  
 | [AliExpress](https://www.aliexpress.com/item/32998333031.html) | F-BNC/F-BNC adapter | 1 | €1.66/2pcs |
 | [AliExpress](https://www.aliexpress.com/item/1005001867862900.html) | M-BNC/F-SMA adapter | 1 | €5.64/2pcs |
 | [AliExpress](https://www.aliexpress.com/item/33061511845.html) | Red, 50 Meters, 24AWG, UL1571 PVC insulated wire | ±20m | €18.25/50m |
+| | metal rings, 25mm diameter | 2 | | |
 
 ## Notes
 * Hammond enclosure idea from [MM0OPX EFHW](https://youtu.be/nZ-G4hJCTSM?t=1123)
 * 10m coax cable is integral part of the antenna
+* Many transformer boxes use wing nuts to connect the antenna wire.  This is not a good idea, because the wing nuts can easily get lost.  That's why I opted for a binding post connector.
 
 ## Pitfalls during the building process
 * The common point of primary and secondary windings should be connected to the ground of the coax cable, not the center conductor.
