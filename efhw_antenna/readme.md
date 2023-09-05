@@ -9,7 +9,7 @@ An SDRplay RSP1A is connected to 10m coax on the ground, which is connected to t
 
 The antenna wire is about 20m long, and it loops through a wire which hangs from a window at about 6m above ground.  Then leading back to a fence where it's fixed with an 8S carabiner.
 
-The antenna setup resembles more or less an inverted V.  The angle between the antenna wire and the ground is about 30 degrees.
+The antenna setup resembles more or less an inverted V.  The angle between the antenna wire and the ground is about 45°.
 
 ## VSWR measurement of the perfboard setup
 
@@ -30,7 +30,7 @@ Why is the performance so bad compared to the perfboard setup?
 
 We're using the same antenna, the same core with unchanged secondary winding.  Primary winding has been rewound.  The common terminal of both windings is now connected to the BNC-ground, while in the perfboard setup, there was a wire (red insulation) connecting the common terminal to the ground of the SMA-connector.
 
-The tests with 2450ohm termination already showed a serious degradation from the perfboard setup.  So we should get this setup (with 2450ohm termination) working first before we can expect good results with the antenna.
+The tests with 2450Ω termination already showed a serious degradation from the perfboard setup.  So we should get this setup (with 2450Ω termination) working first before we can expect good results with the antenna.
 
 Back to the drawing board.
 
@@ -92,10 +92,20 @@ Because it wasn't so much work to do this extra measurement.  It didn't seem to 
 ## Results
 [PSK-reporter](https://www.pskreporter.info/pskmap.html) shows that FT-8 is by far the most popular mode on HF.  Moreover, the cycle time is only 15s (compared to 2mins for WSPR).  This means that you can quickly receive a lot of signals, and you can quickly see if your antenna is working.
 
+We let FT8 run for a couple of minutes on each band and show the RX-results below.  Because the measurements depend on ionospheric conditions, a screenshot from the [dxview](https://hf.dxview.org/perspective/JO10qv) is shown for each band.
+
 ### 40m-band
+<img src="./doc/rx_results/7MHz_digital_level.png" width="500"/>
+<img src="./doc/rx_results/40m_FT8.png" width="500"/>
 
 ### 20m-band
+<img src="./doc/rx_results/14MHz_digital_level.png" width="500"/>
+<img src="./doc/rx_results/20m_FT8.png" width="500"/>
 
 ### 15m-band
+<img src="./doc/rx_results/21MHz_digital_level.png" width="500"/>
+<img src="./doc/rx_results/15m_FT8.png" width="500"/>
 
 ### 10m-band
+<img src="./doc/rx_results/28MHz_digital_level.png" width="500"/>
+<img src="./doc/rx_results/10m_FT8.png" width="500"/>
