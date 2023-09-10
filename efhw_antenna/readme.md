@@ -51,6 +51,12 @@ Because it wasn't so much work to do this extra measurement.  It didn't seem to 
 
 <a href="./doc/vswr_in_housing_100pF_antenna_connected.png"><img src="./doc/vswr_in_housing_100pF_antenna_connected.png" width="500"/></a>
 
+### Measurement 4 : installed the antenna above a sloping roof
+
+<img src="./doc/location2/vswr_in_housing_no_cap_antenna_connected_above_sloping roof.png" width="500"/>
+
+Without length tuning, the antenna is a little bit too short, especially on 40m.  The problem is that I cut a little too short.
+
 
 ## Parts list
 | Item | Description | Qty | Price |
@@ -103,8 +109,13 @@ We let FT8 run for a couple of minutes on each band and show the RX-results belo
 <img src="./doc/rx_results/20m_FT8.png" width="500"/>
 
 ### 15m-band
+#### Original location
 <img src="./doc/rx_results/21MHz_digital_level.png" width="500"/>
 <img src="./doc/rx_results/15m_FT8.png" width="500"/>
+
+#### Location 2
+<img src="./doc/location2/SDRuno.png" width="500"/>
+<img src="./doc/location2/15m_FT8.png" width="500"/>
 
 ### 10m-band
 <img src="./doc/rx_results/28MHz_digital_level.png" width="500"/>
