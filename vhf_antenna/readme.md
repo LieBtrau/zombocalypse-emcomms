@@ -14,7 +14,7 @@
 [The simple coax cable emergency prepper antenna](https://www.youtube.com/watch?v=tafy51yUzQo)
 
 ## λ/4 Monopole antenna
-For the rubber ducky antenna from your HT, it's your body that serves as a counterpoise (ground plane).  Don't connect these rubber ducky antennas directly to a length of coax without a ground plane, because the antenna won't work properly then.  VSWR of 11:1 is not uncommon in that case.
+For the rubber ducky antenna from your HT, it's your body that serves as a counterpoise (ground plane).  Don't connect these rubber ducky antennas directly to a length of coax without a ground plane, because the antenna won't work properly then.  VSWR of 11:1 is not uncommon in that case.  See [λ/4 ground plane antenna](#quarter-wave-ground-plane-antenna) for details on the necessary radials.
 
 * Zin = 36Ω at the resonance frequency (over an infinite ground plane)
 * Maximum gain = 5.15dBi (3dB more than dipole antenna)
@@ -25,8 +25,6 @@ For the rubber ducky antenna from your HT, it's your body that serves as a count
 * VSWR measurements on quarter wave monopole antennas don't mean much in reality.  So the measurements below should be taken with a grain of salt.  
 * The λ/4 monopole antenna performance strongly depends on the size and orientation of the ground plane and hand capacity (add CM-choke to feed point!) etc...
 * An antenna with a good VSWR in a lab setup (using a large perpendicular ground plane) doesn't guarantee it will perform well in real life conditions, when it's connected to your HT.
-
-
 
 ### References
 * [Real world antenna testing](https://github.com/StuartsProjects/AntennaTesting)
@@ -46,16 +44,20 @@ For the rubber ducky antenna from your HT, it's your body that serves as a count
 * Cable ferrite WE 74270043 : alternative to first one.
 * [Half-wave flower pot](https://vk2zoi.com/articles/half-wave-flower-pot/)(HT2T antenna from CB-world)
 * [Flower pot for 2m & 70cm](http://tigereye.net.au/vk4ion/docs/Antenna_Flower_Pot_2M_70cm_Dual_Band.pdf)
-
-## Slim jim antenna, roll-up J-pole antenna
-[Essexham](https://www.essexham.co.uk/slim-jim)
+* [flower pot / sleeve dipole / T2LT antenna](https://www.m0mcx.co.uk/m0mcx-banana-antenna-an-end-fed-choke-sleeve-resonant-feedline-t2lt-antenna-design/)
 
 ## Sleeve dipole antenna, bazooka antenna
 * [Sleeve Dipole Antenna Design and Build](https://incompliancemag.com/article/sleeve-dipole-antenna-design-and-build/)
 * [Extended PMR Antenna UHF/PMR446](https://www.youtube.com/watch?v=WVFZ77vH2Jw) : uses a Coiled-Coax Choke Balun near the antenna, which is probably not very effective.
 * [Make Your Own FM Vertical Sleeve Coax Antenna](https://www.youtube.com/watch?v=hK0KX0YcvH0): no balun at all
+* [T2LT DX Vertical Bazooka - The Cheapest CB Antenna you can buy or make.](https://www.youtube.com/watch?v=lwbT4ZX6514)
 
-## λ/4 ground plane antenna
+## Slim jim antenna, roll-up J-pole antenna
+The trouble with this antenna might be to get ladder line.  On AliExpress you can find 300ohm twin lead FM dipole antenna.  You can also simply buy an Ed Fong J-pole antenna.
+
+* [Essexham](https://www.essexham.co.uk/slim-jim)
+
+## Quarter wave ground plane antenna
 The go-to antenna here is a ground plane antenne.  The resonant frequency can easily be tuned by cutting the monopole, while the impedance can be tuned by folding the radials.
 
 <figure>
