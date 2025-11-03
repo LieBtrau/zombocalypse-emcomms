@@ -43,14 +43,19 @@ For the rubber ducky antenna from your HT, it's your body that serves as a count
 * Cable ferrite WE 74270062 : cheap (€1), might put two in series, fits 5mm od cable
 * Cable ferrite WE 74270043 : alternative to first one.
 * [Half-wave flower pot](https://vk2zoi.com/articles/half-wave-flower-pot/)(HT2T antenna from CB-world)
-* [Flower pot for 2m & 70cm](http://tigereye.net.au/vk4ion/docs/Antenna_Flower_Pot_2M_70cm_Dual_Band.pdf)
-* [flower pot / sleeve dipole / T2LT antenna](https://www.m0mcx.co.uk/m0mcx-banana-antenna-an-end-fed-choke-sleeve-resonant-feedline-t2lt-antenna-design/)
+* [Half-Wave Flower Pot Antenna – 2M or 2m/70cm Dual Band](http://tigereye.net.au/vk4ion/docs/Antenna_Flower_Pot_2M_70cm_Dual_Band.pdf)
+* [M0MCX Banana Antenna – an end-fed choke sleeve resonant feedline T2LT antenna design](https://www.m0mcx.co.uk/m0mcx-banana-antenna-an-end-fed-choke-sleeve-resonant-feedline-t2lt-antenna-design/)
+* [T2LT DX Vertical Bazooka - The Cheapest CB Antenna you can buy or make.](https://www.youtube.com/watch?v=lwbT4ZX6514):
+  * tuning can be done by backfolding the center element and keeping it tight with heat shrink tubing
+
 
 ## Sleeve dipole antenna, bazooka antenna
+Backfolding the coax shield over the coax dielectric creates a sleeve dipole antenna, but it's hard to do.
+
 * [Sleeve Dipole Antenna Design and Build](https://incompliancemag.com/article/sleeve-dipole-antenna-design-and-build/)
 * [Extended PMR Antenna UHF/PMR446](https://www.youtube.com/watch?v=WVFZ77vH2Jw) : uses a Coiled-Coax Choke Balun near the antenna, which is probably not very effective.
 * [Make Your Own FM Vertical Sleeve Coax Antenna](https://www.youtube.com/watch?v=hK0KX0YcvH0): no balun at all
-* [T2LT DX Vertical Bazooka - The Cheapest CB Antenna you can buy or make.](https://www.youtube.com/watch?v=lwbT4ZX6514)
+* [The Vertical Bazooka Antenna](https://www.iw5edi.com/ham-radio/3777/the-vertical-bazooka-antenna)
 
 ## Slim jim antenna, roll-up J-pole antenna
 The trouble with this antenna might be to get ladder line.  On AliExpress you can find 300ohm twin lead FM dipole antenna.  You can also simply buy an Ed Fong J-pole antenna.
