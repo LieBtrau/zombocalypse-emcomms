@@ -40,8 +40,11 @@ For the rubber ducky antenna from your HT, it's your body that serves as a count
 * [Super-Elastic Signal Stick](https://signalstuff.com/product/super-elastic-signal-stick/), made of [nitinol](https://signalstuff.com/product/super-elastic-signal-stick-sma-male/).
 
 ## Flower pot antenna
-* Cable ferrite WE 74270062 : cheap (€1), might put two in series, fits 5mm od cable
-* Cable ferrite WE 74270043 : alternative to first one.
+### Buy it
+[T2LT Antenna 2m & 70cm – Made in Germany](https://hamradioshop.net/en/T2LT-Antenna-2m-70cm-Made-in-Germany/2000.7)
+
+### Make it
+* [Easy to Build 2 Meter (146 MHz) Vertical Antenna](https://hamradiodx.net/easy-to-build-2-meter-146-mhz-vertical-antenna/)
 * [Half-wave flower pot](https://vk2zoi.com/articles/half-wave-flower-pot/)(HT2T antenna from CB-world)
 * [Half-Wave Flower Pot Antenna – 2M or 2m/70cm Dual Band](http://tigereye.net.au/vk4ion/docs/Antenna_Flower_Pot_2M_70cm_Dual_Band.pdf)
 * [M0MCX Banana Antenna – an end-fed choke sleeve resonant feedline T2LT antenna design](https://www.m0mcx.co.uk/m0mcx-banana-antenna-an-end-fed-choke-sleeve-resonant-feedline-t2lt-antenna-design/)
