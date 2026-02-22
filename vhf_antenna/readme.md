@@ -50,7 +50,7 @@ For the rubber ducky antenna from your HT, it's your body that serves as a count
 * [M0MCX Banana Antenna – an end-fed choke sleeve resonant feedline T2LT antenna design](https://www.m0mcx.co.uk/m0mcx-banana-antenna-an-end-fed-choke-sleeve-resonant-feedline-t2lt-antenna-design/)
 * [T2LT DX Vertical Bazooka - The Cheapest CB Antenna you can buy or make.](https://www.youtube.com/watch?v=lwbT4ZX6514):
   * tuning can be done by backfolding the center element and keeping it tight with heat shrink tubing
-
+* [The Flower Pot Antenna: A Simple Build with Surprising Performance](https://moonrakeronline.com/eu/blog/the-flower-pot-antenna-a-simple-build-with-surprising-performance)
 
 ## Sleeve dipole antenna, bazooka antenna
 Backfolding the coax shield over the coax dielectric creates a sleeve dipole antenna, but it's hard to do.
@@ -63,7 +63,10 @@ Backfolding the coax shield over the coax dielectric creates a sleeve dipole ant
 ## Slim jim antenna, roll-up J-pole antenna
 The trouble with this antenna might be to get ladder line.  On AliExpress you can find 300ohm twin lead FM dipole antenna.  You can also simply buy an Ed Fong J-pole antenna.
 
-* [Essexham](https://www.essexham.co.uk/slim-jim)
+* info : [WBTR: Use THIS 2m/70cm Antenna On the Go & in Stealth Setups!](https://w1btr.com/index.php/2023/04/07/use-this-2m-70cm-antenna-on-the-go-in-stealth-setups/)
+* Make : [Essexham](https://www.essexham.co.uk/slim-jim)
+* Make : [2 METER 1/2-WAVE J-POLE](https://drive.google.com/file/d/1-D-i5kla4V_47kBNzZjRb43A7Fm5JJGh/view?pli=1)
+* Buy : [N9TAX Shop](https://n9taxlabs.com/shop)
 
 ## Quarter wave ground plane antenna
 The go-to antenna here is a ground plane antenne.  The resonant frequency can easily be tuned by cutting the monopole, while the impedance can be tuned by folding the radials.
