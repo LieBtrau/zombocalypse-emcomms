@@ -31,3 +31,6 @@ pulled the coax through the holes in the conduit.
 <figure>
 <img src="./doc/nanovna-h4_2025-11-22_17-04-00.png" width="800"/>
 </figure>
+
+# Weather proofing
+* Self-fusing butyl rubber tape Nitto Shinko No.15.
